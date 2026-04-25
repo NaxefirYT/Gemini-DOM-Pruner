@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini DOM Pruner",
+  "version": "1.0",
+  "description": "Легкая оптимизация длинных чатов в Gemini",
+  "content_scripts": [
+    {
+      "matches": ["*://gemini.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
